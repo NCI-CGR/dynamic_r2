@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: dynamic_r2
+Description: Filter minimac4 imputed data by Rsq within frequency bins
+Requires: gcc >= 8.2.0
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir}
+Cflags: -I${includedir}/dynamic_r2-1.0.0 -I${libdir}/dynamic_r2-1.0.0/include
