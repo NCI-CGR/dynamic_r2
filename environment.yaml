@@ -1,6 +1,6 @@
 name: dynamic_r2-env
 dependencies:
-  - boost
+  - boost-cpp
   - finter
   - zlib
   - bzip2
